@@ -109,3 +109,62 @@
     margin: 0 auto;
     margin-top: 16px;
 }
+
+/* Стилизуем секцию waiting */
+.waiting{
+    height: 100%;
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
+
+.waiting_header{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #252525;
+    text-align: center;
+}
+
+.waiting_divider{
+    display: block;
+    margin: 0 auto;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin-top: 18px;
+}
+
+.waiting_subheader{
+    margin-top: 17px;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+.waiting_wrapper{
+    margin-top: 45px;
+    text-align: center;
+}
+
+.waiting_wrapper .waiting_item{
+    display: inline-block;
+    vertical-align: top;
+    width: 342px;
+    margin: 0 24px;
+}
+
+.waiting_wrapper .waiting_item .waiting_img{
+    width: 100%;
+}
+
+.waiting_wrapper .waiting_item .waiting_descr{
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #4a4a4a;
+    margin-top: 33px;
+}
