@@ -118,7 +118,7 @@
     padding: 85px 0 75px 0;
 }
 
-.waiting_header, .finish_header{
+.waiting_header, .finish_header, .meeting_header{
     font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
@@ -136,7 +136,7 @@
     margin-top: 18px;
 }
 
-.waiting_subheader{
+.waiting_subheader, .meeting_text{
     margin-top: 17px;
     font-family: Roboto;
     font-size: 23px;
@@ -272,4 +272,33 @@
 
 .present .present_btn{
     margin-top: 48px;
+}
+
+/* Стилизуем секцию meeting */
+.meeting{
+    min-height: 515px;
+    padding: 89px 0 64px 0;
+}
+
+.meeting .meeting_img{
+    display: block;
+    margin: 0 auto;
+}
+
+.meeting .meeting_header{
+    margin-top: 37px;
+}
+
+.meeting .meeting_subheader{
+    margin-top: 30px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #299cbd;
+    text-align: center;
+}
+
+.meeting .meeting_text{
+    margin-top: 25px;
 }
