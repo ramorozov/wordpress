@@ -75,7 +75,7 @@
     color: #F9BF3B;
 }
 
-.promo .promo_btn{ 
+.promo .promo_btn, .present .present_btn{ 
     display: block;
     margin: 0 auto;
     width: 321px;
@@ -246,4 +246,30 @@
     font-weight: 300;
     color: #efefef;
     text-align: center;
+}
+
+/* Стилизуем секцию present */
+.present{
+    min-height: 628px;
+    background-color: #efefef;
+    padding: 86px 0 83px 0;
+}
+
+.present .present_img{
+    display: block;
+    margin: 0 auto;
+}
+
+.present .present_text{
+    margin-top: 42px;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #252525;
+    text-align: center;
+}
+
+.present .present_btn{
+    margin-top: 48px;
 }
