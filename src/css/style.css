@@ -118,7 +118,7 @@
     padding: 85px 0 75px 0;
 }
 
-.waiting_header{
+.waiting_header, .finish_header{
     font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
@@ -127,7 +127,7 @@
     text-align: center;
 }
 
-.waiting_divider{
+.waiting_divider, .finish_divider{
     display: block;
     margin: 0 auto;
     width: 217px;
@@ -170,7 +170,7 @@
     margin-top: 33px;
 }
 
-/* Стилизуем секцию optiwization */
+/* Стилизуем секцию optimization */
 .optimization{
     min-height: 550px;
     padding: 102px 0 107px 0;
@@ -204,4 +204,46 @@
     top: -54px;
     left: -240px;
     z-index: -1;
+}
+
+/* Стилизуем секцию finish */
+.finish{
+    min-height: 447px;
+    background: url('../img/down_main.jpg') center center/cover no-repeat;
+    padding: 86px 0 79px 0;
+}
+
+.finish .finish_header{
+    color: #efefef;
+}
+
+.finish .finish_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
+}
+
+.finish .finish_wrapper .finish_item{
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr{
+    margin-top: 26px;
+    font-family: Roboto;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #efefef;
+    text-align: center;
 }
