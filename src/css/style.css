@@ -302,3 +302,27 @@
 .meeting .meeting_text{
     margin-top: 25px;
 }
+
+/* Стилизуем секцию footer */
+footer{
+    min-height: 166px;
+    padding: 61px 0 69px 0;
+    background-color: #1a1a1a;
+}
+
+.info{
+    text-align: center;
+}
+
+.info .info_link a, .info .info_link, .info .info_tel{
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 300;
+    text-decoration: underline;
+    color: #888888;
+}
+
+.info .info_link{
+    text-decoration: none;
+}
